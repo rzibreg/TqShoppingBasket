@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tq.ShoppingBasket.Models
+namespace Tq.ShoppingBasket.Domain.Repositories
 {
-    public enum ProductCategory
+    public interface IRepository<T>
     {
-        Butter,
-        Milk,
-        Bread,
-        //...
+        Task<IEnumerable<T>> GetAll();
     }
 }

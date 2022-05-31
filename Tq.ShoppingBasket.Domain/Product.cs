@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tq.ShoppingBasket.Interfaces;
+﻿using Tq.ShoppingBasket.Domain.Enums;
 
-namespace Tq.ShoppingBasket.Models
+namespace Tq.ShoppingBasket.Domain
 {
-    public class Product : IProduct
+    public class Product
     {
         public Product(string name, decimal price, ProductCategory category)
         {

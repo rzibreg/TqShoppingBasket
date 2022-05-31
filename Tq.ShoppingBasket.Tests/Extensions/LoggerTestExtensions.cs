@@ -1,8 +1,8 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using System;
+using Microsoft.Extensions.Logging;
 using Moq;
-using System;
 
-namespace Tq.ShoppingBasket.Tests
+namespace Tq.ShoppingBasket.Tests.Extensions
 {
     public static class LoggerTestExtensions
     {
