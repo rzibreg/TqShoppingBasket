@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tq.ShoppingBasket\Tq.ShoppingBasket.csproj" />
+    <ProjectReference Include="..\Tq.ShoppingBasket.Application\Tq.ShoppingBasket.Application.csproj" />
   </ItemGroup>
 
 </Project>
